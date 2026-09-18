@@ -1,0 +1,28 @@
+.page {
+    display: none;
+    animation: fadeIn 0.5s ease-in;
+}
+.active-page {
+    display: block;
+}
+.hero-pattern {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/63907026-1975-4324-a0cf-b10153e76f42.png') center/cover;
+}
+.table-booking-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.table-booking-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+.success-toast {
+    animation: slideIn 0.3s ease-out;
+}
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+@keyframes slideIn {
+    from { transform: translateY(-100px); opacity: 0; }
+    to { transform: translateY(0); opacity: 1; }
+}

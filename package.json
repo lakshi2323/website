@@ -1,0 +1,22 @@
+{
+  "name": "gourmet-haven-booking",
+  "version": "1.0.0",
+  "description": "Restaurant table booking system with user authentication and admin dashboard",
+  "main": "src/index.html",
+  "scripts": {
+    "start": "live-server public --open=index.html",
+    "build": "echo \"No build step configured\""
+  },
+  "keywords": [
+    "restaurant",
+    "booking",
+    "tailwindcss",
+    "javascript",
+    "localstorage"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "live-server": "^1.2.1"
+  }
+}
